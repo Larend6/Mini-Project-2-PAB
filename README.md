@@ -76,6 +76,12 @@ Berikut adalah beberapa widget utama yang digunakan dalam aplikasi:
 
 ## Screenshot Aplikasi
 
+## Halaman Login
+
+
+
+## Halaman Register
+
 ### Halaman utama aplikasi
 
 <img width="180" height="420" alt="image" src="https://github.com/user-attachments/assets/fa451522-d466-4f53-bb4a-622c9a1e499d" />
@@ -84,10 +90,11 @@ Berikut adalah beberapa widget utama yang digunakan dalam aplikasi:
 
 <img width="180" height="420" alt="image" src="https://github.com/user-attachments/assets/b58f6408-2767-446b-b970-804acb7e385a" />
 
-### Halaman utama setelah input
+## Halaman Detail Kartu
 
-<img width="180" height="420" alt="image" src="https://github.com/user-attachments/assets/a90929ff-44d5-4f88-a9fe-352acbfc6e54" />
-
-### Popup Preview
+### Halaman Profil
 
 <img width="180" height="420" alt="image" src="https://github.com/user-attachments/assets/526d6749-df7e-4e37-a1f9-99bab9e6e58a" />
+
+## Halaman Ganti Password
+
