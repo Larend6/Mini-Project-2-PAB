@@ -1,0 +1,39 @@
+name: tcg_collection
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  provider: ^6.1.2
+  image_picker: ^1.0.7
+  supabase_flutter: ^2.12.0
+  flutter_dotenv: ^6.0.0
+  google_fonts: ^6.1.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: "assets/app_icons/logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#177A47"
+  adaptive_icon_foreground: "assets/app_icons/logo.png"
+  web:
+    generate: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/
