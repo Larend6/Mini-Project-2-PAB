@@ -31,7 +31,6 @@ class _LoginPageState extends State<LoginPage> {
     checkSession();
   }
 
-  /// AUTO LOGIN JIKA SESSION MASIH ADA
   void checkSession() {
 
     final session = Supabase.instance.client.auth.currentSession;
@@ -149,7 +148,6 @@ class _LoginPageState extends State<LoginPage> {
 
               const SizedBox(height: AppSpacing.md),
 
-              /// LOGO
               Icon(
                 Icons.catching_pokemon,
                 size: 72,
@@ -166,7 +164,6 @@ class _LoginPageState extends State<LoginPage> {
 
               const SizedBox(height: AppSpacing.xl),
 
-              /// LOGIN CARD
               Card(
 
                 shape: RoundedRectangleBorder(
@@ -190,7 +187,6 @@ class _LoginPageState extends State<LoginPage> {
 
                       const SizedBox(height: AppSpacing.lg),
 
-                      /// EMAIL
                       TextField(
                         controller: emailController,
                         decoration: InputDecoration(
@@ -205,7 +201,6 @@ class _LoginPageState extends State<LoginPage> {
 
                       const SizedBox(height: AppSpacing.md),
 
-                      /// PASSWORD
                       TextField(
                         controller: passwordController,
                         obscureText: obscurePassword,
@@ -233,7 +228,6 @@ class _LoginPageState extends State<LoginPage> {
 
                       const SizedBox(height: AppSpacing.sm),
 
-                      /// REMEMBER ME
                       Row(
                         children: [
 
@@ -253,7 +247,6 @@ class _LoginPageState extends State<LoginPage> {
 
                       const SizedBox(height: AppSpacing.sm),
 
-                      /// LOGIN BUTTON
                       SizedBox(
                         height: 48,
                         child: ElevatedButton(
@@ -272,7 +265,6 @@ class _LoginPageState extends State<LoginPage> {
 
                       const SizedBox(height: AppSpacing.sm),
 
-                      /// REGISTER
                       TextButton(
 
                         onPressed: () {

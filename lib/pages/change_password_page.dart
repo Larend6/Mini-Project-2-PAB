@@ -194,7 +194,6 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
 
                       const SizedBox(height: AppSpacing.lg),
 
-                      /// CURRENT PASSWORD
                       TextField(
                         controller: currentController,
                         obscureText: obscureCurrent,
@@ -222,7 +221,6 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
 
                       const SizedBox(height: AppSpacing.md),
 
-                      /// NEW PASSWORD
                       TextField(
                         controller: newPasswordController,
                         obscureText: obscureNew,
@@ -283,7 +281,6 @@ class _ChangePasswordPageState extends State<ChangePasswordPage> {
 
                       const SizedBox(height: AppSpacing.md),
 
-                      /// CONFIRM PASSWORD
                       TextField(
                         controller: confirmController,
                         obscureText: obscureConfirm,

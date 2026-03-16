@@ -195,7 +195,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
             children: [
 
-              /// LOGO
               Icon(
                 Icons.catching_pokemon,
                 size: 72,
@@ -212,7 +211,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
               const SizedBox(height: AppSpacing.xl),
 
-              /// CARD FORM
               Card(
 
                 shape: RoundedRectangleBorder(
@@ -236,7 +234,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
                       const SizedBox(height: AppSpacing.lg),
 
-                      /// NAME
                       TextField(
                         controller: nameController,
                         decoration: InputDecoration(
@@ -251,7 +248,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
                       const SizedBox(height: AppSpacing.md),
 
-                      /// EMAIL
                       TextField(
                         controller: emailController,
                         decoration: InputDecoration(
@@ -266,7 +262,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
                       const SizedBox(height: AppSpacing.md),
 
-                      /// PASSWORD
                       TextField(
                         controller: passwordController,
                         obscureText: obscurePassword,
@@ -298,7 +293,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
                       const SizedBox(height: 8),
 
-                      /// STRENGTH BAR
                       LinearProgressIndicator(
                         value: passwordStrength,
                         minHeight: 6,
@@ -308,7 +302,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
                       const SizedBox(height: 6),
 
-                      /// PASSWORD RULES
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -333,7 +326,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
                       const SizedBox(height: AppSpacing.md),
 
-                      /// CONFIRM PASSWORD
                       TextField(
                         controller: confirmPasswordController,
                         obscureText: obscureConfirm,
@@ -362,7 +354,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
                       const SizedBox(height: 6),
 
-                      /// CONFIRM STATUS
                       if (confirm.isNotEmpty)
                         Row(
                           children: [
@@ -396,7 +387,6 @@ class _RegisterPageState extends State<RegisterPage> {
 
                       const SizedBox(height: AppSpacing.lg),
 
-                      /// REGISTER BUTTON
                       SizedBox(
                         height: 48,
                         child: ElevatedButton(

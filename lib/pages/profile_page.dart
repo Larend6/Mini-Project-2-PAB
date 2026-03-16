@@ -174,7 +174,6 @@ class _ProfilePageState extends State<ProfilePage> {
 
           children: [
 
-            /// PROFILE HEADER
             Column(
 
               children: [
@@ -241,7 +240,6 @@ class _ProfilePageState extends State<ProfilePage> {
 
             const SizedBox(height: AppSpacing.xl),
 
-            /// STATS
             Row(
               children: [
 
@@ -258,7 +256,6 @@ class _ProfilePageState extends State<ProfilePage> {
 
             const SizedBox(height: AppSpacing.xl),
 
-            /// ACCOUNT SETTINGS
             Card(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(AppRadius.large),
@@ -324,7 +321,6 @@ class _ProfilePageState extends State<ProfilePage> {
 
             const SizedBox(height: AppSpacing.xl),
 
-            /// LOGOUT
             SizedBox(
               width: double.infinity,
 
